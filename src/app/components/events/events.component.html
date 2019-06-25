@@ -1,0 +1,14 @@
+
+<h1> EVENTOS</h1>
+<table class="table"> 
+     <tbody >
+        <tr *ngFor = "let event of events">
+            <td>{{event.titulo}}</td>
+            <td>{{event.descripcion}}</td>
+            <td>
+                <img src="../../assets/{{event.imagen}}" alt="..." class="img-thumbnail"  height="150" width="150">
+            </td>
+            
+        </tr>
+     </tbody>
+</table>
