@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HomeService} from '../../services/home.service'
+import { HomeService} from '../../services/home.service/home.service'
 import { async } from '@angular/core/testing';
 
 @Component({
